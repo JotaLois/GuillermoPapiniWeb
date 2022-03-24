@@ -1,0 +1,371 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: 0;
+          box-sizing: 0;
+  text-decoration: none;
+}
+
+body {
+  background-image: url(../Imagenes/fondo-web-guille-mobile.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  height: 100vh;
+}
+
+.cuerpo {
+  margin-top: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.slide {
+  margin-bottom: 10rem;
+}
+
+.diapoMobile img {
+  height: 80vh;
+  width: 100vw;
+}
+
+.diapoDesk {
+  display: none;
+}
+
+.navMap {
+  padding-bottom: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fafcfc;
+  width: 100vw;
+  border-top: solid 3px;
+  border-color: #1f719b;
+}
+
+.navMap .tituloPie {
+  font-size: large;
+  font-weight: bolder;
+  margin-top: 2rem;
+}
+
+.navMap .listaMenuPie {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+.navMap .listaMenuPie li {
+  text-align: center;
+}
+
+.navMap .menues {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+
+.navMap .logoPie {
+  margin-top: 0;
+}
+
+.navMap .menues .listaMenuPie a {
+  text-decoration: none;
+}
+
+.navMap .menues .tituloPie a p {
+  text-decoration: none;
+}
+
+.navMap p {
+  padding: 0px;
+}
+
+.titular {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.titular h3 {
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+  font-size: 35px;
+  margin-bottom: 3rem;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+}
+
+.menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+
+.menu li {
+  color: black;
+  padding: 20px;
+  list-style: none;
+  font-family: 'Comfortaa', cursive;
+}
+
+.menu li span:hover {
+  color: #f7fcfc;
+  background-color: #77daf3;
+}
+
+.item span {
+  color: #353535;
+  font-size: 1rem;
+}
+
+.item span:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+}
+
+.piePagina {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 50px;
+  font-size: 12px;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-image: url(../Imagenes/fondoWebGuille.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: auto;
+  }
+  .contenedor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    width: 100vw;
+  }
+  .titular {
+    margin-top: 2rem;
+    margin-bottom: 7rem;
+  }
+  .titular img {
+    margin-bottom: 2rem;
+    color: #034f63;
+    font-size: 50px;
+    font-family: 'Jura', sans-serif;
+  }
+  p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .menu ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-decoration: none;
+  }
+  .menu {
+    margin-bottom: 4rem;
+  }
+  .navMap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 100vw;
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+  }
+  .navMap .menues {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: -2.5rem;
+  }
+  .navMap .menues .listaMenuPie a {
+    text-decoration: none;
+    color: #1f719b;
+  }
+  .navMap .menues a {
+    text-decoration: none;
+    color: #1f719b;
+  }
+  .contenedor footer {
+    margin-bottom: 0;
+  }
+  .menu .item {
+    font-size: 3rem;
+  }
+  .diapoDesk img {
+    height: 100vh;
+    width: 100vw;
+  }
+  .diapoMobile {
+    display: none;
+  }
+  .diapoDesk {
+    display: block;
+  }
+  /*Estilos:Secciones*/
+  .contenedorSecciones {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    width: 100vw;
+  }
+  .contenedorSecciones .titularSecciones {
+    margin-bottom: 0;
+  }
+  .contenedorSecciones .menuSecciones {
+    margin-top: 0;
+  }
+  .menuSecciones ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-decoration: none;
+  }
+  .menu li {
+    color: black;
+    padding: 20px;
+    list-style: none;
+    font-family: 'Comfortaa', cursive;
+  }
+  .menu li span:hover {
+    color: #f7fcfc;
+    background-color: #77daf3;
+  }
+  .menuSecciones li {
+    color: black;
+    padding: 20px;
+    list-style: none;
+    font-family: 'Comfortaa', cursive;
+  }
+  .menuSecciones li span:hover {
+    color: #f7fcfc;
+    background-color: #77daf3;
+  }
+}
+/*# sourceMappingURL=style.css.map */

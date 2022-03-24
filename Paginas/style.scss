@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: none;           
+}
+
+
+body{
+background-image: url(../Imagenes/fondo-web-guille-mobile.png);
+background-size: cover;
+background-repeat: no-repeat;
+
+text-decoration: none;
+height: 100vh;
+}
+
+.cuerpo{
+    margin-top: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.slide{
+    margin-bottom: 10rem;
+    
+}
+.diapoMobile img {
+    height: 80vh;
+    width: 100vw;
+    
+    
+}
+.diapoDesk{
+    display: none;
+}
+
+
+.navMap {
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(250, 252, 252);
+    width: 100vw;
+    border-top: solid 3px;
+    border-color: rgb(31, 113, 155);
+    
+
+}
+
+.navMap .tituloPie {
+    font-size: large;
+    font-weight: bolder;
+    margin-top: 2rem;
+}
+
+.navMap .listaMenuPie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    
+}
+
+.navMap .listaMenuPie li {
+    text-align: center;
+    
+}
+
+.navMap .menues {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+.navMap .logoPie {
+    margin-top: 0;
+   
+    
+}
+.navMap .menues .listaMenuPie a {
+    text-decoration: none;
+}
+.navMap .menues .tituloPie a p{
+    text-decoration: none;
+}
+
+
+.navMap p {
+    padding: 0px;
+}
+
+
+
+.titular{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.titular h3{
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 35px;
+    margin-bottom: 3rem;
+    
+    
+}
+
+h3{
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
+    
+}
+.menu li {
+    color: black;
+    padding: 20px;
+    list-style: none;
+    font-family: 'Comfortaa', cursive;
+}
+
+
+.menu li span:hover{
+    color: rgb(247, 252, 252);
+    background-color:rgb(119, 218, 243);
+    
+}
+
+
+.item span{
+    color: rgb(53, 53, 53);
+    font-size: 1rem;
+}
+.item span:hover{
+    transform: scale(1.2);
+    transition: 0.25s;
+    transition-timing-function: ease-in-out;
+}
+
+.piePagina{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 50px;
+    font-size:  12px; ;
+}
+
+@media (min-width:768px) {
+    body {background-image:url(../Imagenes/fondoWebGuille.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    width:fit-content;
+    height: auto;
+    
+    }
+
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+        
+        width: 100vw;
+        
+    }
+
+    .titular{
+        margin-top: 2rem;
+        margin-bottom: 7rem;
+    }
+    .titular img{
+        margin-bottom: 2rem;
+        color: rgb(3, 79, 99);
+        font-size: 50px;
+        font-family: 'Jura', sans-serif;
+        
+    }
+    p{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .menu ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        
+        
+    }
+
+    .menu {
+        margin-bottom: 4rem;
+
+    }
+
+    .navMap {
+        display:flex;
+        
+        flex-direction: row;
+        align-items:center;
+        justify-content: space-around;
+        width: 100vw;
+        margin-top: 6rem;
+        margin-bottom: 1rem;
+    }
+
+    .navMap .menues {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -2.5rem;
+        
+
+    }
+    .navMap .menues .listaMenuPie a {
+        text-decoration: none;
+        color: rgb(31, 113, 155);
+    }
+
+    .navMap .menues a {
+        text-decoration: none;
+        color: rgb(31, 113, 155);
+    }
+
+
+    .contenedor footer {
+        margin-bottom: 0;
+
+    }
+
+    .menu .item {
+        font-size: 3rem;
+    }
+
+    .diapoDesk img {
+        height: 100vh;
+        width: 100vw;
+        
+    }
+
+    .diapoMobile{
+        display: none;
+    }
+
+    .diapoDesk{
+        display: block;
+    }
+    /*Estilos:Secciones*/
+
+    .contenedorSecciones{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+        
+        width: 100vw;
+    }
+
+    .contenedorSecciones .titularSecciones {
+    margin-bottom: 0;
+    }
+
+    .contenedorSecciones .menuSecciones {
+        margin-top: 0;
+    }
+
+    .menuSecciones ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        
+    }
+
+    
+
+    .menu li {
+        color: black;
+        padding: 20px;
+        list-style: none;
+        font-family: 'Comfortaa', cursive;
+    }
+    
+    
+    .menu li span:hover{
+        color: rgb(247, 252, 252);
+        background-color:rgb(119, 218, 243);
+        
+    }
+
+    .menuSecciones li {
+        color: black;
+        padding: 20px;
+        list-style: none;
+        font-family: 'Comfortaa', cursive;
+    }
+    
+    
+    .menuSecciones li span:hover{
+        color: rgb(247, 252, 252);
+        background-color:rgb(119, 218, 243);
+        
+    }
+}
