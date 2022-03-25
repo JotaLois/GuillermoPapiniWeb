@@ -18,50 +18,44 @@
     <title>Arquitecto-Guillermo_Papini</title>
 </head>
 <body>
-  <nav class="navbar navbar-light bg-transparent fixed-top">
-                  <div class="container-fluid">
-                    <a class="navbar-brand" href=""> <img class="img-fluid" src="./Imagenes/logoGuilleWeb.png" alt="logo Guillermo"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                      <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
-                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                      </div>
-                      <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                          <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Sobre mi</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">contacto</a>
-                          </li>
-                          <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              obras
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                              <li><a class="dropdown-item" href="#">Edificio Hualfin</a></li>
-                              <li><a class="dropdown-item" href="#">Edificio Moreno</a></li>
-                              <li><a class="dropdown-item" href="#">Vivienda Country</a></li>
-                              <li><a class="dropdown-item" href="#">Edificio Moreno</a></li>
-                              <li><a class="dropdown-item" href="#">Edificio Moreno</a></li>
-                              <li><a class="dropdown-item" href="#">Edificio Moreno</a></li>
-                              <li><a class="dropdown-item" href="#">Edificio Moreno</a></li>
-                              <li><a class="dropdown-item" href="#">Edificio Moreno</a></li>
-                              <li><a class="dropdown-item" href="#">Edificio Moreno</a></li>
-                              <li><a class="dropdown-item" href="#">Edificio Moreno</a></li>
-                              <li><a class="dropdown-item" href="#">Edificio Moreno</a></li>
-                              
-                            </ul>
-                          </li>
-                        </ul>
-                        
-                      </div>
-                    </div>
-                  </div>
-                </nav>
+ 
+    <div class="menuDesk">
+      <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img class="img-fluid" src="./Imagenes/logoGuilleWeb.png" alt="logo Guillermo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse textoMenu" id="navbarNavDropdown">
+            <ul class="navbar-nav ">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  obras
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Edificio Moreno</a></li>
+                  <li><a class="dropdown-item" href="#">Vivienda Country</a></li>
+                  <li><a class="dropdown-item" href="#">Edificio Hualfin</a></li>
+                </ul>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="./Paginas/sobre-mi.html">estudio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Paginas/sobre-mi.html">servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Paginas/contacto.html">contacto</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+
 
   <main class="cuerpo">
     
