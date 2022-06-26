@@ -40,7 +40,7 @@ text-decoration: none;
     flex-direction: column;
     align-items: center;
     background-color:rgb(250, 252, 252);
-    width: 100vw;
+    min-width:100vw;
     border-top: solid 3px;
     border-color: rgb(31, 113, 155);
 }
@@ -48,7 +48,7 @@ text-decoration: none;
 .navMap .tituloPie {
     font-size: large;
     font-weight: bolder;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .navMap .listaMenuPie {
@@ -62,6 +62,7 @@ text-decoration: none;
 
 .navMap .listaMenuPie li {
     text-align: center;
+    font-size: 20px;
 }
 
 .navMap .menues {
@@ -69,8 +70,22 @@ text-decoration: none;
     flex-direction: column;
     align-items: center;
     text-decoration: none;
+    
+}
+.menues a{
+    margin:auto;
+    padding: 3px;
 }
 
+.datos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.datos a {
+    margin: 5px;
+}
 .navMap .logoPie {
     margin-top: 0; 
 }
@@ -92,7 +107,7 @@ text-decoration: none;
     text-align: center;
     font-family:'Comfortaa', cursive;
     font-size: 15px;
-    margin: 3rem 10rem 0 10rem ;
+    margin-top: 1rem;
     bottom: 0;  
 }
 
@@ -192,10 +207,6 @@ text-decoration: none;
     
 } 
 
-.secciones__nav{
-    /*border-bottom: 5px solid #4C7985;*/
-}
-
 .titulos__obras{
     text-align: center;
     color: #fff;
@@ -204,6 +215,7 @@ text-decoration: none;
     margin-top: 2rem;
     background-color: #0490B3;
     padding: 5px;
+    width: 100%;
     
 
 }
@@ -522,4 +534,8 @@ text-decoration: none;
  .contenedorEstudio p {
     padding: 15px;
     margin: 10rem;
+ }
+ .wasapp-icon{
+    color: rgb(31, 113, 155);;
+
  }
