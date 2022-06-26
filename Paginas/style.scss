@@ -26,10 +26,7 @@ text-decoration: none;
     margin-bottom: 10rem;
     
 }
-.diapoMobile img {
-    height: 80vh;
-    width: 100vw;  
-}
+
 .diapoDesk{
     display: none;
 }
@@ -58,6 +55,7 @@ text-decoration: none;
     list-style: none;
     text-align: center;
     padding: 0;
+    font-family:'Comfortaa', cursive;
 }
 
 .navMap .listaMenuPie li {
@@ -109,77 +107,6 @@ text-decoration: none;
     font-size: 15px;
     margin-top: 1rem;
     bottom: 0;  
-}
-
-
-@media (min-width:768px) {
-
-    .cuerpo {
-        margin-top: 0;
-    }
-
-    .menuMobile {
-        display: none;
-    }
-
-    .menuDesk {
-        display: block;
-    }
-
-    .textoMenu{
-        text-align: end;
-    }
-
-    .navMap {
-        display:flex;
-        
-        flex-direction: row;
-        align-items:center;
-        justify-content: space-around;
-        width: 100vw;
-        margin-top: 6rem;
-        margin-bottom: 1rem;
-    }
-
-    .navMap .menues {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: -2.5rem;
-        
-
-    }
-    .navMap .menues .listaMenuPie a {
-        text-decoration: none;
-        color: rgb(31, 113, 155);
-    }
-
-    .navMap .menues a {
-        text-decoration: none;
-        color: rgb(31, 113, 155);
-    }
-
-    .menu .item {
-        font-size: 3rem;
-    }
-
-    .diapoDesk img {
-        height: 100vh;
-        width: 100vw;
-        
-    }
-
-    .diapoMobile{
-        display: none;
-    }
-
-    .diapoDesk{
-        display: block;
-    }
-
-    .nav-link{
-        font-family: 'Comfortaa', cursive;;
-            }
 }
 
 .nombres__obras {
@@ -413,6 +340,106 @@ text-decoration: none;
     border-radius: 20%;
  }
  
+ /*SECCION ESTUDIO*/
+ .contenedorEstudio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: stretch;
+
+ }
+
+ .contenedorEstudio p {
+    padding: 15px;
+    margin: 10rem;
+ }
+ .wasapp-icon{
+    color: rgb(31, 113, 155);;
+ }
+
+ /*SECCIONES CONTACTO*/
+ .formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    padding-bottom: 0;
+ }
+
+ @media (min-width:768px) {
+
+    .cuerpo {
+        margin-top: 0;
+    }
+
+    .menuMobile {
+        display: none;
+    }
+
+    .menuDesk {
+        display: block;
+    }
+
+    .textoMenu{
+        text-align: end;
+    }
+
+    .navMap {
+        display:flex;
+        
+        flex-direction: row;
+        align-items:center;
+        justify-content: space-around;
+        width: 100vw;
+        margin-top: 6rem;
+        margin-bottom: 1rem;
+    }
+
+    .navMap .menues {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -2.5rem;
+        
+
+    }
+    .navMap .menues .listaMenuPie a {
+        text-decoration: none;
+        color: rgb(31, 113, 155);
+    }
+
+    .navMap .menues a {
+        text-decoration: none;
+        color: rgb(31, 113, 155);
+    }
+
+    .menu .item {
+        font-size: 3rem;
+    }
+
+    .diapoDesk img {
+        height: 100vh;
+        width: 100vw;
+        
+    }
+
+    .diapoMobile{
+        display: none;
+    }
+
+    .diapoDesk{
+        display: block;
+    }
+
+    .diapoMobile img {
+        height:100%;
+        width: 100vw;  
+    }
+    .nav-link{
+        font-family: 'Comfortaa', cursive;;
+            }
+}
+
  @media (max-width:600px){
     .card__1 img {
         width: 70rem;
@@ -511,6 +538,11 @@ text-decoration: none;
         bottom: 0;  
     }
     
+    /*seccion_estudio*/
+    .contenedorEstudio p {
+        padding: 2px;
+        margin: 2rem;
+     }
     
  }
 
@@ -518,24 +550,4 @@ text-decoration: none;
     font-family: 'Comfortaa', cursive;
 
  }
- /*SECCION ESTUDIO*/
- .contenedorEstudio{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: stretch;
-
- }
-
- .contenedorEstudio .piePaginaEstudio{
-    bottom: 0;
-
- }
- .contenedorEstudio p {
-    padding: 15px;
-    margin: 10rem;
- }
- .wasapp-icon{
-    color: rgb(31, 113, 155);;
-
- }
+ 
